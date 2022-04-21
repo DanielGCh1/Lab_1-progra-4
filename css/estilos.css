@@ -1,0 +1,69 @@
+
+/*Utilidades*/
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.paginaElegida {
+    color: white;
+    font-size: 25px;
+}
+img {
+ width: 60%;
+}
+.centrar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*header*/
+.menu {
+    width: 90%;
+    height: 10%;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 20px;
+    padding: 20px 20px;
+}
+.menu_nosotros_contenedor{
+    width: 80%; 
+}
+.menu_nosotros_contenedor_paginas{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu_nosotros_contenedor_paginas img{
+    width: 55%;
+}
+.menu_contacto {
+    width: 18%;
+    display: flex;
+    justify-content: flex-end;
+}
+/*Main*/
+.contenido_principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin: 20px 20px;
+    padding: 20px 20px;
+}
+
+/*Footer*/
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgray;
+}
